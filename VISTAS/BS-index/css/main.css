@@ -1,0 +1,21 @@
+.card-border{
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+.info-border{
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.info-border:hover{
+    transform: scale(1.05);
+}
+.bg{
+    background-image: url(../img/bg-1.jpg);
+    background-position: center center;
+}

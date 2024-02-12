@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentaClick</title>
+
+    <!-- bootstrap 5.2 -->
+	<link rel="stylesheet" href="VISTAS/BS-index/css/bootstrap.min.css">
+    <!-- diseño basico -->
+    <link rel="stylesheet" href="VISTAS/BS-index/css/main.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="VISTAS/INTERFACES/css/all.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3" href="#">
+                <img src="logo.png" alt="" width="60"> DentaClick
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navegation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="VISTAS/login.php">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="VISTAS/register.php">Registro</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrusel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="VISTAS/BS-index/img/img-1.jpg" class="d-block w-100" alt="" width="620px" height="450px">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Los mejores en nuestra labor</h5>
+              <p>Hacemos lo mejor por la satisfaccion de nuestros clientes.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="VISTAS/BS-index/img/img-2.jfif" class="d-block w-100" alt="" width="620px" height="450px">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Eres importante</h5>
+              <p>Tus dientes nos importan mucho por eso hacemos lo mejor para ti.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="VISTAS/BS-index/img/img-3.webp" class="d-block w-100" alt="" width="620px" height="450px">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Tus dientes son lo mas preciado para nosotros</h5>
+               <p>Dejamos bellos tus dientes para ver una sonrisa feliz.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Cards -->
+    <div class="servicios" id="servicios">
+        <div class="container-md p-5">
+            <div class="row pt-1">
+                <h3 class="text-center pb-5 pt-1 h3">Lo que hacemos por ti <i class="fas fa-tooth"></i></h3>
+            </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="VISTAS/BS-index/img/card-1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">Limpieza dental completa</h5>
+                          <p class="card-text">Hacemos limpiezas dentales, con el cuidado necesario para que tengas una linda sonrisa, te damos lo mejor para lo mas importante tus dientes</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="VISTAS/BS-index/img/card-2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">Servicio para todas las edades</h5>
+                          <p class="card-text">Ayudamos a todas las personas con diferentes edades, para que tengan un buen cuidado dental y tengan una linda sonrisa resplandeciente</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="VISTAS/BS-index/img/card-3.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">Todo tipo de tratamiento dental</h5>
+                          <p class="card-text">¿Que esperas? Empieza tu tratamiento con nosotros, 100% del tratamiento con un seguimiento especializado con los mejores dentistas</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lugar -->
+    <div class="container-md p-1 mb-5" id="lugar">
+        <div class="row pt-1">
+            <h3 class="text-center pb-5 pt-1 h3">Acá nos encontramos</h3>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+               <!--Google map-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4425134711464!2d-74.03767138589849!3d4.
+                6929126430333765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa686a8384b%3A0x477b96e1973b373!2sAk.%209%20%23113-63%201205%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1665290450996!5m2!1ses!2sco" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!--Google Maps-->
+            </div>
+            <div class="col-sm bg-dark info-border mx-5">
+                <h3 class="h2 text-light text-center mt-4"><i class="fas fa-map me-3"></i>ubicacion</h3>
+                <div class="text-light mt-4">
+                <p>
+                    Nuestra empresa Claudia Esparza Institute se encuentra en la direccion: av.cra.9#113a-36, en la
+                    oficina 1205 de la avenida carrera 9.
+                </p>
+                <p>
+                    Esperamos tu visita con ansias, no somos como otros consultorios te damos un trato unico que te fascinara
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            <span>Contactame por estas redes sociales:</span>
+        </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/andrés-rodriguez-499363211/" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Koto-py" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Links  -->
+        <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-home me-3 text-secondary"></i>Claudia Esparza Alvarado Institute
+                </h6>
+                <p>
+                Sitio oficial del consultorio odontologico Claudia Esparza Alvarado Institute, agendamiento de citas web.
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Links utiles
+                </h6>
+                <p>
+                <a href="#!" class="me-4 link-secondary">Contacto de la empresa</a>
+                </p>
+                <p>
+                <a href="#servicios" class="text-reset">Lo que hacemos</a>
+                </p>
+                <p>
+                <a href="#lugar" class="text-reset">¿Donde estamos?</a>
+                </p>
+                <p>
+                <a href="https://es.calameo.com/read/0072087059b2fcf3c8336" class="text-reset">¿Ayuda?</a>
+                </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contacto developer</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i> Bogota D.C, CO</p>
+                <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                Andrex120tv@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> +57 321 2353148</p>
+            </div>
+
+        </div>
+
+        </div>
+        </section>
+        <!-- Section: Links  -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2022 Copyright: Software developer Rodriguez Andrés
+        </div>
+    </footer>
+
+    <!-- js bootstrap -->
+
+	<!-- popper -->
+	<script src="VISTAS/BS-index/js/popper.js"></script>
+
+	<!-- Bootstrap V5.2 -->
+	<script src="VISTAS/BS-index/js/bootstrap.min.js"></script>
+</body>
+</html>
